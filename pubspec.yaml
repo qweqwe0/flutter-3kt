@@ -1,0 +1,23 @@
+name: my_app
+description: "3кт"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6 # Иконки для iOS-стиля
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/image1.png
+    - assets/images/image2.png
+    - assets/images/image3.png
+    
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/PlaywriteRO-Regular.ttf
