@@ -58,7 +58,6 @@ class ImagesScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 20),
-          // Третье изображение с высотой 200
           SizedBox(
             height: 200,
             child: Image.asset(
@@ -67,12 +66,11 @@ class ImagesScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 20),
-          // Текст с размером 30px
           const Text(
             'i love matcha!!',
             style: TextStyle(
-              fontSize: 30, // Увеличиваем размер шрифта до 30px
-              fontWeight: FontWeight.bold, // Можно добавить жирность
+              fontSize: 30, 
+              fontWeight: FontWeight.bold, 
             ),
           ),
         ],
